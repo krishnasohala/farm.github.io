@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Products Page</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Berkshire+Swash&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Charm&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Charm&family=Limelight&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/website.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- JQUERY UI CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous"></script>
+<!-- Waypoints CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+<!-- counter up CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
+  
+
+
+  <script>
+    $(document).ready(function(){
+        $(".counter").counterUp({delay: 30, time:2000});
+
+        $(".counter").addClass("animated count");
+    });
+
+    
+  
+  </script>
+  <script>
+    var wow = new WOW(
+  {
+    boxClass:     'wow',      // animated element css class (default is wow)
+    animateClass: 'animated', // animation css class (default is animated)
+    offset:       0,          // distance to the element when triggering the animation (default is 0)
+    mobile:       true,       // trigger animations on mobile devices (default is true)
+    live:         true,       // act on asynchronously loaded content (default is true)
+    callback:     function(box) {
+      // the callback is fired every time an animation is started
+      // the argument that is passed in is the DOM node being animated
+    },
+    scrollContainer: null,    // optional scroll container selector, otherwise use window,
+    resetAnimation: true,     // reset animation on end (default is true)
+  }
+);
+wow.init();
+  </script>
+
+<style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  #demo{margin-left: 3%; margin-right: 3%; margin-bottom: 10%;}
+  .carousel-item {animation: slide 1s linear infinite;}
+
+  
+
+
+  
+  </style>
+    
+  
+              
+  
+</head>
+
+<body style="background-image: url(images/depositphotos_255239178-stock-photo-spring-light-green-blur-background.jpg); background-size: cover;">
+<div class="navbar-inverse">
+	<div class="container">
+	<nav class="navbar navbar-expand-sm ">  
+		<a class="navbar-brand" href="index.html" id="logo"><img src="images/Letter_Logo.png" width="180px" height="70px"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars " style="color:white"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav mr-auto">
+	  
+    <li class="nav-item">
+      <a class="nav-link " href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="product_web.html">Products</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="our_story.html">Our Story</a>
+    </li>
+	  <li class="nav-item">
+      <a class="nav-link" href="about_us.html">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html">Contact</a>
+    </li>
+  </ul>
+		</div>
+</nav>
+	
+	</div>
+	</div>
+
+<div class="img-fluid">
+
+    <img src="images/farm2-subheader.jpg" class="img-responsive"  width="100% ">
+   <p class="pp text-responsive text-center animated fadeInUp" style="	justify-content: center; color: yellowgreen; font-size: 50px;  margin-left: 8%;font-family: 'Limelight', cursive;" >Products</p>
+    </div>
+    
+    
+
+    <div class="imgbox1" style="background-image: url(images/abstract-glowing-light-on-green-260nw-232132708.jpg); background-size: cover;">
+      <div class="container pt-3 pb-3">
+        <div class="row">
+          
+            <div class="col-sm-4">
+                <div class="text-center wow zoomIn" style="text-align: center;">
+                <img src="images/farm2-home-icon1.png" width="40%">
+                <h3 style="color: rgb(123, 218, 120); font-family: 'Limelight', cursive;">Increased Biodiversity</h3>
+                <p class="c2 wow zoomIn">Biodiversity increases the resistance of ecosystem productivity to climate extremes.Increasing species diversity can influence ecosystem functions — such as productivity — by increasing the likelihood that species will use complementary resources and can also increase the likelihood that a particularly productive or efficient species is present in the community.</p>
+            </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="text-center wow zoomIn">
+                <img src="images/farm2-home-icon4.png"  width="40%">
+                <h3 style="color:rgb(123, 218, 120); font-family: 'Limelight', cursive;">Improved Symbiosis</h3>
+                <p class="c2 wow zoomIn">Symbioses with beneficial microorganisms constitute the universal and ecologically highly effective strategy of adaptation of plants towards nearly all types of environmental challenges. Representatives of many groups of fungi and bacteria participate in plant-microbial symbioses wherein they can colonize the plant surfaces, compartments using two basic adaptive strategies: nutritional and defensive. </p>
+            </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="text-center wow zoomIn">
+                <img src="images/farm2-home-icon3.png" width="40%">
+                <h3 style="color: rgb(123, 218, 120); font-family: 'Limelight', cursive;">Healthy Produce</h3>
+                <p class="c2 wow zoomIn">Healthy food produced by methods complying with the standards of organic farming. Standards vary worldwide, but organic farming features practices that cycle resources, promote ecological balance, and conserve biodiversity. Organizations regulating organic products may restrict the use of certain pesticides and fertilizers in the farming methods used to produce such products. </p>
+            </div>
+            </div>
+
+        </div>
+</div>
+    </div>
+    <br><br>
+
+    <div class="prod-box">
+    <div class="row">
+        <div class="col-sm-6">
+            <img src="images/farm2-products-pic4.png" class="img-apple img-responsive"  style="width:100%;  animation: shake 8s;
+            animation-iteration-count: infinite;">
+            
+        </div>
+
+        <div class="col-sm-6">
+            <div class="prod-text">
+            <h1 class="txt1 wow tada">Apples</h1>
+            <p class="txt2 wow zoomIn">Apples are the most consumed fruit in worldwide.The United States is the second largest apple producer worldwide, behind China. U.S. production is followed by Poland, Italy and France. We grows approximately 15 unique apple varieties. The top 10 varieties are Red Delicious, Gala, Granny Smith, Fuji, Golden Delicious, Honey Crisp, McIntosh, Rome, Cripps, Pink/Pink Lady.We grow, on average, 10 million bushels of apples each year and grow the apples on an approximated 3.5 acres of land.  </p>
+            <a href="#"> <button class="btn1 btn-lg">Read More ></button></a>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+    <br><br>
+
+    <div class="prod-box">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="prod-text">
+                    <h1 class="txt1 wow tada">Peaches</h1>
+                    <p class="txt2 wow zoomIn">There are two basic types of peaches (Prunus persica): clingstone and freestone. With clingstone peaches, the flesh “clings” to the "stone" of the peach, making it difficult to separate, and thus more suitable for processing.The pit of freestone peaches "freely" separates from the flesh, making it ideal for fresh consumption.Peach trees require chilling hours to induce flowering (600 chilling hours for low-chill varieties and 900 for higher chilling varieties). Peach trees can bloom relatively early in the spring, therefore areas that receive frosts after mid-April should not be used to establish a peach orchard. </p>
+                    <a href="#"> <button class="btn1 btn-lg">Read More ></button></a>
+                    </div>
+                
+                
+            </div>
+    
+            <div class="col-sm-6">
+                <img src="images/farm2-products-pic3.png" class="img-apple " style="width:100%;  animation: shake 8s;
+                animation-iteration-count: infinite;">
+                
+                
+            </div>
+        </div>
+        </div>
+        <br><br>
+
+        <div class="prod-box">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="images/farm2-products-pic1.png" class="img-apple" style="width:100%;  animation: shake 8s;
+                    animation-iteration-count: infinite;">
+                    
+                </div>
+        
+                <div class="col-sm-6">
+                    <div class="prod-text">
+                    <h1 class="txt1 wow tada">Pears</h1>
+                    <p class="txt2 wow zoomIn">There are two types of pears: The European or French pears (Pyrus communis) including varieties such as, Bartlett, Bosc and D’Anjou, and Asian pears (Pyrus pyrifolia) with varieties such as, Hosui and Nijisseiki. Asian pears are also known as “apple-pears” because of their apple-like texture. The marketing season for pears differs among the states they’re produced in and their varieties. Tapping into niche markets is another way value can be added to a product. In recent years apple ciders and alcoholic pear beverages (known as perry), have become more popular.</p>
+                    <a href="#"> <button class="btn1 btn-lg">Read More ></button></a>
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+            <br><br>
+
+            <div class="prod-box">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="prod-text">
+                            <h1 class="txt1 wow tada">Grapes</h1>
+                            <p class="txt2 wow zoomIn">While grapes will grow in most climate zones, the types of grapes grown for wine, eating or juices are have a much more limited growing area. Before planting any commercial vineyard, consult an expert in viticulture in your area. Even in areas where the desired grape will grow, it is important to place the vineyard on the correct type of soil, with proper wind and water drainage, fertility, sub-soil make-up, facing the sun.Selection of the types of grapes to produce will depend on what the market wants to buy.We grow different varities of grapes.</p>
+                           <a href="#"> <button class="btn1 btn-lg">Read More ></button></a>
+                            </div>
+                       
+                        
+                    </div>
+            
+                    <div class="col-sm-6">
+                        <img src="images/farm2-products-pic2.png" class="img-apple " style="width:100%;  animation: shake 8s;
+                        animation-iteration-count: infinite;">
+                        
+                        
+                    </div>
+                </div>
+                </div>
+                <br><br><br>
+               
+                
+
+
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                  <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                    <li data-target="#demo" data-slide-to="3"></li>
+                    <li data-target="#demo" data-slide-to="4"></li>
+                    <li data-target="#demo" data-slide-to="5"></li>
+                    <li data-target="#demo" data-slide-to="6"></li>
+                  </ul>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/2.jpg"  width="100%" height="100%">
+                      <div class="carousel-caption">
+                        <h3 style="font-weight: bolder; color: white; font-size: 40px;">Pears trees</h3>
+                        
+                      </div>   
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/3.jpg"  width="100%" height="100%">
+                      <div class="carousel-caption">
+                        <h3 style="font-weight: bolder; color: #023826; font-size: 40px;">Vegetable plants</h3>
+                        
+                      </div>   
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/4.jpg" width="100%" height="100%">
+                      <div class="carousel-caption">
+                        <h3 style="font-weight: bolder; color: white; font-size: 40px;">Black Grapes</h3>
+                        
+                      </div>   
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/6.jpg" width="100%" height="100%">
+                      <div class="carousel-caption">
+                        <h3 style="font-weight: bolder; color: white;font-size: 40px;">Apple trees</h3>
+                        
+                      </div>   
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/7.jpg" width="100%" height="100%">
+                      <div class="carousel-caption">
+                        <h3 style="font-weight: bolder; color: white;font-size: 40px;">Red Grapes</h3>
+                        
+                      </div>   
+                    </div>
+                    
+                    <div class="carousel-item">
+                      <img src="images/9.jpg" width="100%" height="100%">
+                      <div class="carousel-caption">
+                        <h3 style="font-weight: bolder; color: white;font-size: 40px;">Tamato Plants</h3>
+                        
+                      </div>   
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/10.jpg" width="100%" height="100%">
+                      <div class="carousel-caption">
+                        <h3 style="font-weight: bolder; color:white;font-size: 40px;">Peach Trees</h3>
+                       
+                      </div>   
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </a>
+                </div>
+
+                <br><br>
+
+                
+                <br><br>
+
+
+                
+
+               <center> <img src="images/farm2-sep1.png"></center>
+
+               <br><br><br>
+
+               <div class="count-box">
+                <div class="row">
+               <div class="col-sm-3  text-dark ">
+                 
+                <center> <h1 style="font-weight: 750; color: #023826; font-family: 'Charm', cursive;"><span class="counter" >48 </span></h1>
+                 <h3 class="counttxt text-responsive">Years of experience</h3>
+                 <br>
+                
+               </div>
+               <div class="col-sm-3  text-dark ">
+                
+                  <center><h1 style="font-weight: 750; color: #023826; font-family: 'Charm', cursive;"><span class="counter">50 </span></h1>
+                  <h3 class="counttxt text-responsive">Employed Farmers</h3>
+                  <br>
+                 
+                  <br>
+               </div>
+               <div class="col-sm-3  text-dark ">
+                         
+                 <center><h1 style="font-weight: 750; color: #023826; font-family: 'Charm', cursive;"><span class="counter">100</span></h1>
+                 <h3 class="counttxt text-responsive">local markets</h3>
+                 <br>
+                 
+                 <br>
+               </div>
+               <div class="col-sm-3  text-dark ">
+                           
+                  <center> <h1 style="font-weight: 750; color: #023826; font-family: 'Charm', cursive;"><span class="counter">1000</span></h1>
+                   <h3 class="counttxt text-responsive">Different products</h3>
+                   <br>
+                   
+                   <br>
+                 </div>
+             </div>
+             </div>
+             <br><br><br>
+              <br><br><br>
+
+              <div class="footer" style="background-image: url(images/abstract-glowing-light-on-green-260nw-232132708.jpg); background-size: cover;">
+                <div class="foot-box">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <img src="images/Letter_Logo.png" width="180px" height="70px">
+                    
+                    <br><br>
+                    <h4 style="color: rgb(203, 236, 140);">Feel free to contact </h4>
+                    
+                    <a href="contact.html"><button class="btn btn-lg">Read More >></button></a>
+                    <br><br>
+                    <h3 class="connect text-responsive" style="color: rgb(203, 236, 140);">Connect Us:</h3>
+                    
+          
+                    <a href="https://www.facebook.com/"> <i class="fab fa-facebook ficon"></i></a>
+                    <a href="https://www.instagram.com/"> <i class="fab fa-instagram ficon"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fab fa-twitter ficon"></i></a>
+                    <a href="https://www.linkdin.com/"><i class="fab fa-linkedin-in ficon"></i></a>
+                    <a href="https://www.googleplus.com/"><i class="fab fa-google-plus-g ficon"></i></a>
+          
+                  <br><br>
+                     
+                      <a href="#" class="link1"><b>FAQ</b></a>
+                      <a href="#" class="link1"><b>Support</b></a>
+                      <a href="#" class="link1"><b>Useful Info</b></a>
+                    
+                    
+          
+                  </div>
+          
+                  <div class="col-sm-4">
+                    <h3 style="color: yellowgreen;"><b>Contact Details</b></h3>
+                    <br>
+                    <h5 style="color: rgb(203, 236, 140);"><b> Level 13, 2 Elizabeth st,<br> Melbourne, Victoria 3000,<br> Australia<br> <br>
+                      Call Us: <br>
+                     <a href="#" class="link3" style="color: rgb(203, 236, 140);" > 
+                     
+                      +61 (0) 383766284 </a><br>
+                      <a href="#" class="link3" style="color: rgb(203, 236, 140);" >
+                      +61 (0) 244543456 <br><br></a>
+                      Mail us: <br>
+                      <a href="#" class="link3" style="color: rgb(203, 236, 140);" >
+                      info@freshpick.com</a><br>
+                      <a href="#" class="link3" style="color: rgb(203, 236, 140);" >
+                    www.freshpick.com</b></a>
+                    </h5>
+                    
+          
+                    
+          
+                    
+                    <br><br>
+                    
+          
+                  </div>
+          
+                  <div class="col-sm-4">
+                    <h3 style="color: yellowgreen;"><b>Our Mission</b></h3>
+                    <br>
+                    <p class="pp2" style="color: rgb(203, 236, 140);">Our mission is to keep family farmers on the land. We’re best known for our annual food and farm festival, but the truth is we work each and every day, year-round to build a system of agriculture that values family farmers, good food, soil and water, and strong communities.
+                      Learn more about our day-to-day work to celebrate and strengthen farmers, advocate for fair farm policies, connect farmers and eaters, and bring family farm food to everyone.
+                       </p>
+                    
+                    
+                    <br>
+                    <a href="about_us.html" class="link2"><b>Read more >></b></a>
+                    
+          
+                  </div>
+                </div>
+              </div>
+              <hr class="foot-line" style=" width: 100%; border: 1px solid yellowgreen;">
+              <h6 class="footertext" style="color: yellowgreen; text-align: center;">Copyright &copy; 2021 Freshpick Farm | All Rights Reserved | Powered by Freshpick Farm </h6>
+              
+              </div>
+            
+
+</body>
+</html>
