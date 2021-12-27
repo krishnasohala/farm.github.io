@@ -1,0 +1,224 @@
+.navbar-inverse{background-color: #023826 !important;position:fixed;top:0;width:100%;z-index:999;}
+
+.navbar-nav{margin-left: 15%!important}
+
+.active{border:2px solid yellowgreen!important; border-radius: 5px!important;background-color: transparent!important}
+
+.nav-link{text-decoration: none;border:2px solid transparent;border-radius: 5px; font-size: 17px; color:yellowgreen;margin:0 30px;font-family: 'Bree Serif', serif;font-weight: bold;}
+.nav-link:hover{border:2px solid yellowgreen!important;border-radius: 5px!important;color:yellowgreen;}
+.text-center{color: bisque;}
+
+
+
+.imgbox {border: 1px solid #023826; padding: 5%; background-color: #023826; border-radius: 4px;}
+.btn{padding: 10px 25px; background-color: transparent; color:yellowgreen ; font-weight: bold; border: 2px solid yellowgreen;  border-radius: 28px;}
+.btn:hover{color:#243b2d; background-color: yellowgreen; padding-left:20px ;}
+
+.content-box1{ padding: 5%; background-color:  #d3f1e7; color: #023022; margin-right: 19.5%; font-size: 30px;  }
+.text1{margin-left: 50%; color: #023826; font-size: 100px;margin-top: 17%; font-family: 'Charm', cursive ;}
+.text2{margin-left: 42%; color: #023826; font-size: 20px; font-family:  'Charm', cursive;}
+.c1{font-size: 28px; font-family:  'Charm', cursive; text-align: justify;}
+
+.content-box{margin-top: -2%; padding: 2%; background-color:  #d3f1e7; color: #023022; margin-right: 8%; font-size: 20px; margin-left: 32%;width: 55%;  }
+
+.imgpng{margin-top: -6%; margin-left: 60%;}
+
+section{border: 1px solid #ffffff;
+	padding: 5px; margin-left: 20%; margin-right: 15%;
+  }
+
+  .icon1{float: left;}
+
+  
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+  .slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+  }
+ 
+  .pp1{font-size: 20px; font-family: 'Charm', cursive; text-align: justify;text-align-last: center; color: rgb(203, 236, 140);}
+
+  .pp2{font-size: 20px;  text-align: justify; font-style: oblique; font-weight: bold; }
+
+  .t1{color: aliceblue; font-size: 20px; padding-top: 5px; font-family:  'Charm', cursive; text-align: justify; padding-left: 3%; padding-right: 3%;}
+  
+  .con-img:hover{animation: shake 0.5s;
+    animation-iteration-count: infinite;}
+   
+
+  .footer{background-size: cover;  color: white; background-color: #023826;}
+  .foot-box{margin-left: 10%; margin-right: 10%; padding: 8px;}
+  .link1{color:yellowgreen ; padding: 15px; font-size: 18px; margin-left: -5%;}
+  .link1:hover{text-decoration: underline; color:yellowgreen;}
+  .link2{font-size: 18px; color: rgb(203, 236, 140);}
+  .link2:hover{text-decoration: underline; color: #cdebd7;}
+  .link3{color: yellowgreen;}
+  .link3:hover{text-decoration: underline; color: yellowgreen;}
+  .pp2{font-size: 17px; color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+  .connect{padding-left: 10px; margin-left: -3%; color: rgb(240, 218, 232); font-weight: bold; font-family: 'Limelight', cursive;}
+
+  /* Product page */
+  .imgbox1{background-color: #023826; padding: 25px;}
+  .btn1{background-color: transparent; color:#023826; border-radius: 10px; border: 3px solid #023826 ;}
+  .btn1:hover{background-color: yellowgreen; color: #023826; border: 1px solid yellowgreen;}
+  .txt1{font-size: 50px; font-weight: bold; color: rgb(2, 58, 39); font-family: 'Limelight', cursive;}
+  .txt2{color: #385743; font-size: 25px; text-align: justify; text-indent: 0%; text-orientation: sideways;font-family: 'Charm', cursive;}
+
+  .c2{color: rgb(203, 236, 140); font-size: 18px; font-family: 'Charm', cursive; text-align: justify; font-weight: bold;}
+  h2{color: honeydew;}
+  .prod-text{margin-top: 10%; font-size: 20px;}
+  .prod-box{margin-left: 4%; margin-right: 5%;}
+  .count-box{margin-left: 8%; margin-right: 8%; padding-left: 5%; }
+  .counter{font-size: 60px;}
+
+  /* Our story */
+
+  .bg-box{background-color: #243b2d ; background-size: cover; background-position:center ; margin-top: -13%;}
+  .para1{color: rgb(203, 236, 140); font-size: 45px; text-align: justify; text-align-last: center;  text-shadow: rgb(255, 255, 255); font-family: 'Berkshire Swash', cursive;}
+  .para-box{margin-left: 15%; margin-right: 15%;}
+  .para2{color: rgb(203, 236, 140); font-size: 20px; text-indent: 0%; text-align: justify; padding: 6%;text-align-last: center; text-orientation: sideways;font-family: 'Charm', cursive; }
+  .card{  margin-left: 10%; margin-right: 10%;}
+  .box1{margin-left: 8%; margin-right: 10%; border: 1px solid wheat;  color: gray;}
+  .para3{color: rgb(1, 77, 48);font-weight: bold; font-size: 35px; text-align: left; margin-right: 15%;font-family: 'Limelight', cursive;}
+  .card-text{text-align: center; font-size: 30px; color: black;}
+  .des-box{margin-left: 5%; margin-right: 5%;}
+  .t1{color: rgb(203, 236, 140); font-size: 23px; font-family: 'Charm', cursive; font-weight: bold; text-align-last: center; text-align: justify;}
+  .para4{ font-size: 110px; text-align: center; margin-top: 10%;font-family: 'Charm', cursive;color: rgb(1, 77, 48) }
+  .para5{ font-size: 20px; text-align: justify; font-family: 'Charm', cursive; color:#243b2d; font-weight: bold; }
+  .l1{text-align: center; font-size: 24px;font-family: 'Charm', cursive; font-weight: bold;color:rgb(1, 77, 48) }
+
+  /* About Us Page */
+
+   .about-box{margin-left: 10%; margin-right: 10%; margin-top: 5%;}
+  .para6{color: rgb(203, 236, 140); font-size: 28px; text-align: justify; font-family: 'Charm', cursive;font-weight: bold;text-shadow: #ffffff;}
+  .para7{color: rgb(1, 77, 48); font-size: 60px; text-align: center; font-weight: bold; font-family: 'Limelight', cursive;  }
+
+  .about-box1{margin-left: 10%; margin-right: 10%; }
+  
+  .para8{text-align: justify; text-align-last: center; color: rgb(203, 236, 140); font-size: 18px; font-family: 'Charm', cursive; font-weight: bold;}
+  .name1{text-align: center; color: yellowgreen;font-size: 25px; font-weight: bold; font-family: 'Limelight', cursive;}
+  .head1{font-size: 22px; text-align: center; color: yellowgreen;  font-family: 'Charm', cursive; font-weight: bold;}
+  .about-box3{margin-left: 5%; margin-right: 5%;}
+  .about-box4{margin-left: 10%; margin-right: 10%;}
+  .para10{ font-size: 22px; font-family: 'Charm', cursive; color:#243b2d; font-weight: bold; text-align-last: center; text-align: justify;}
+  .counttxt{font-size: 27px; font-family: 'Charm', cursive; color:#243b2d; font-weight: bold;}
+  .about-box5{font-family: 'Charm', cursive; font-weight: bold; color:#243b2d; font-size: 22px;}
+  .heading1{ font-family: 'Limelight', cursive; color: rgb(1, 77, 48);}
+
+  /* Contact page */
+
+  .contact-box{margin-left: 18%; margin-right: 15%;  } 
+  .para11{color: rgb(203, 236, 140); font-size: 50px; text-align: center;  font-family: 'Limelight', cursive;}
+  .conttxt{color: rgb(203, 236, 140);  text-align: center; font-family: 'Charm', cursive; font-weight: bold; font-size: 33px;}
+  .conttxt1{color: rgb(203, 236, 140);  text-align: center;  font-size: 28px;  font-family: 'Limelight', cursive;}
+  .conttxt2{color: rgb(203, 236, 140); font-size: 20px; font-family: 'Charm', cursive;}
+  .conttxt2:hover{text-decoration: none; cursor: pointer;}
+  .contact-box1{ margin-left: 10%; margin-right: 10%;}
+  .contact-box2{ margin-left: 10%; margin-right: 10%; text-align: center;}
+  .contact-box3{margin-left: 5%; margin-right: 5%;}
+  .ficon {font-size:30px;padding:20px; color: yellowgreen; margin-left: -7%;}
+  .ficon:hover{color: rgb(203, 236, 140); transform: scale(1.4); }
+  .btnsubmit{font-size: 20px; font-weight: bold; border-radius: 15px; border: 2px solid yellowgreen;padding: 7px 50px; color:#023826 ; background-color:rgb(158, 243, 147) ;}
+  .btnsubmit:hover{background-color: yellowgreen; color:#243b2d ; transform: scale(1.2);}
+  .googlemap{width: 100%;}
+  .map-wrapper{ max-width: fit-content;}
+  
+
+
+
+  
+ 
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    background-color: gray;
+    opacity: 0.6;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  
+  
+  .active, .dot:hover {
+	background-color: #717171;
+  }
+  
+  /* Fading animation */
+  
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+	.prev, .next,.text {font-size: 11px}
+  }
+
+.pp{
+    color: #023022;
+	font-family:San;
+	font-size:3vw;
+	font-weight:bold;
+	
+	padding:2px;
+	text-align:center;
+
+	top:25%;
+	left:32%;
+	position: absolute;
+	margin: 10px 10px 150px 10px;
+	justify-content: center;
+    align-items: center;
+	transform: translate(-50%,-50%);
+ 
+}
+
+
+
+
+.p1{
+	font-family:Consolas;
+	font-size:18px;
+	font-weight:bold;
+	padding:2px;
+	text-align:center;
+}
+
